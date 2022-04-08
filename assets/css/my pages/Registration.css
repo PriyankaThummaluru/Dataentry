@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.logobrand{
+    width: 14px;
+}
+.pageheading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fbfdfd;
+    height: 100vh;
+  }
+
+  #registration .container #registration-row #registration-column #registration-box #registration-form {
+    padding: 14px;
+    padding-bottom: 14px;
+  }
+  #registration .container #registration-row #registration-column #registration-box #registration-form #register-link {
+    margin-top: -85px;
+  }
+
+#registration .container #registration-row #registration-column #registration-box {
+  margin-top: 114px;
+  max-width: 526px;
+  height: 604px;
+  border-top: 5px solid rgb(0, 174, 255);
+  background-color: rgb(250, 251, 252);
+  border-radius: 10px;
+  text-align: right;
+}
+.cusLabelbox {
+  text-align: right;
+  color: rgb(7, 118, 245);
+  margin: 5px;
+  line-height: 2;
+  font-family: 'Poppins';
+  
+}
+.col-form-label{
+  font-family: 'Poppins';
+ font-weight: bolder;
+}
+.RegH{
+  text-align: center;
+  color: #0c4de1;
+  font-weight: 600;
+  font-family: 'Times New Roman';
+}
+label:not(.form-check-label):not(.custom-file-label) {
+  font-weight: 600;
+}
+
+.form-select{
+  padding: 5px;
+  border-radius: 2px solid  rgb(0, 60, 255) ;
+  font-family: Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 15px;
+}
+
+
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 14px;
+  margin-top: 8px;
+  position: absolute;
+  top: -2px;
+}
+
+   
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  right: 6px;
+}
+
+input[type=text]:focus { 
+  outline:none;
+  border-color: #4195fc; 
+  /* create a BIG glow */
+  box-shadow: 0px 5px 14px #aaccf5; 
+  -moz-box-shadow: 0px 0px 14px #a9d0ff;
+  -webkit-box-shadow: 0px 0px 14px #7cace7;  
+  transition: 0.5s linear; 
+
+}
+input[type=password]:focus { 
+  outline:none;
+  border-color: #4195fc; 
+  /* create a BIG glow */
+  box-shadow: 0px 5px 14px #aaccf5; 
+  -moz-box-shadow: 0px 0px 14px #a9d0ff;
+  -webkit-box-shadow: 0px 0px 14px #7cace7;  
+  transition: 0.5s linear;  
+   
+}
+input[type=checkbox]:focus { 
+  outline:none;
+  border-color: #4195fc; 
+  /* create a BIG glow */
+  box-shadow: 0px 5px 14px #aaccf5; 
+  -moz-box-shadow: 0px 0px 14px #a9d0ff;
+  -webkit-box-shadow: 0px 0px 14px #7cace7;  
+  transition: 0.5s linear;  
+   
+}
+.col-form-label{
+  color: rgb(30, 124, 233);
+}
+@media screen and (max-width: 767px) and (min-width: 200px){
+
+  .cusLabel{
+    text-align: left;
+  }
+  .cusLabelbox {
+    text-align: left;
+  }
+
+  #registration .container #registration-row #registration-column #registration-box {
+    margin-top: 114px;
+    max-width: 526px;
+    height: 868px;
+    border-top: 5px solid rgb(0, 174, 255);
+    background-color: rgb(250, 251, 252);
+    border-radius: 10px;
+    text-align: right;
+  }
+}

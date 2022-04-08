@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    font-family: 'Poppins';
+}
+
+.checkbox-lg {
+    top: -3px;
+    width: 18px;
+    height: 20px;
+}
+
+.btn {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.login-form {
+    margin-top: 10%;
+}
+
+body {
+    background-color: rgb(61 170 247);
+}
+
+.mylabel {
+    font-weight: 500;
+    color: rgb(19, 99, 226);
+}
+
+label:not(.form-check-label):not(.custom-file-label) {
+    font-weight: 600;
+}
+
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    right: 6px;
+}
+
+.loginbox {
+    box-shadow: 0 14px 14px 0 rgb(0 0 0 / 30%), 0 29px 41px 0 rgb(0 0 0 / 19%);
+}
+/* .img-fluid {
+    width: 100%;
+    height: 47.5vh;
+} */
+
+@media (min-width: 992px) { 
+
+    .imgg{
+        width: 100%;
+        
+ }}
+
+ /* @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .imgg{
+        width: 100%;
+        height: 34vh;
+ }
+} */
+/* @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .imgg{
+        width: 100%;
+        height: 34vh;
+ }
+
+} */
+@media screen 
+  and (min-width: 992px) 
+  and (max-width: 1024px){
+    .imgg {
+        width: 100%;
+        /* height: 59.5vh; */
+        height: 100%;
+    }
+}
+@media screen 
+  and (min-width: 1025px) 
+  and (max-width: 1199px){
+    .imgg {
+        width: 100%;
+        /* height: 65.5vh; */
+        height: 100%;
+    }
+}
+@media screen 
+  and (min-width: 1199px) 
+  and (max-width: 1366){
+    .imgg {
+        width: 100%;
+        /* height: 65.5vh; */
+        height: 100%;
+    }
+}
+

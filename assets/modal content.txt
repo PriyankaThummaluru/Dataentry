@@ -1,0 +1,305 @@
+    <!-- modal pop-up starts -->
+            <div class="modal fade" id="myModal" role="dialog" data-backdrop="static">
+                <!-- data-backdrop="static" for not closing when clicked on out side -->
+                <div class="modal-dialog modal-xl">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header py-2" style="background-color: rgb(109, 200, 240);">
+                            <h4 class="modal-title text-white">Entry Screen</h4>
+                            <button type="button" class="close " data-dismiss="modal" style="color: rgb(15, 15, 15);font-weight: bolder; margin-top: -9px;">&times;</button>
+
+                        </div>
+                        <div class="modal-body">
+                            <div class="col-sm-12">
+                                <div class="row">
+                                    <div class="col-sm-12  ">
+                                        <div class="row ">
+                                            <div class="col-sm-3  ">
+                                                <div class="form-group row">
+                                                    <label for="newName" class="col-sm-5 col-form-label cusLabel">Date:</label>
+                                                    <div class="col-md-7 ">
+                                                        <div class="date-container">
+                                                            <input type="text" class="form-control datepicker" name="event_date" autocomplete="off">
+                                                            <i class="date-icon fa fa-calendar " aria-hidden="true"></i>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-group row">
+                                                    <label for="newName" class="col-md-5 col-form-label cusLabel">Publication:</label>
+                                                    <div class="col-md-7">
+                                                        <select class="form-control  col-md-12 col-xs-12 select2" type="text" name="middle-name" >
+                                                            <option value="EENADU">EENADU</option>
+                                                            <option value="EDITION">MY EDITION</option>
+                                                            <option value="ADMIN">ADMIN CMS</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-group row">
+                                                    <label for="newName" class="col-md-5 col-form-label cusLabel">Published Editions:</label>
+                                                    <div class="col-md-7">
+                                                        <input type="text" class="form-control input-sm example" placeholder="Select">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-group row">
+                                                    <label for="newName" class="col-md-5 col-form-label cusLabel">Editions:</label>
+                                                    <div class="col-md-7">
+                                                        <div class="dropdown">
+                                                            <button class="btn btn-white dropdown-toggle border-dark" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                                              Select option
+                                                            </button>
+                                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                                <li>
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input checkbox-lg" type="radio" name="select1" id="Main">
+                                                                        <label class="form-check-label cusLabelbox cusLabel" for="Main">
+                                                                        Main
+                                                                    </label>
+                                                                    </div>
+
+                                                                </li>
+                                                                <li>
+
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input checkbox-lg" type="radio" name="select1" id="Mini" checked>
+                                                                        <label class="form-check-label cusLabelbox cusLabel" for="Mini">
+                                                                        Mini
+                                                                    </label>
+                                                                    </div>
+
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <h3 class=" headinggs "><i class='far fa-edit'> Table</i></h3>
+                                        <div class="row">
+                                            <!-- sub1 -->
+                                            <div class="col-sm-3 border-right">
+                                                <div class="col-sm-12">
+                                                    <div class="form-group row">
+                                                        <label for="newName" class="col-md-5 col-form-label cusLabel">Main
+                                                            Category:</label>
+                                                        <div class="col-md-7">
+                                                            <select class="form-control  col-md-12 col-xs-12 select2" type="text" name="middle-name" >
+                                                                <option value="EENADU">EENADU</option>
+                                                                <option value="EDITION">MY EDITION</option>
+                                                                <option value="ADMIN">ADMIN CMS</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <div class="form-group row">
+                                                        <label for="newName" class="col-md-5 col-form-label cusLabel">Sub
+                                                            Category:</label>
+                                                        <div class="col-md-7">
+                                                            <select class="form-control  col-md-12 col-xs-12 select2" type="text" name="middle-name" >
+                                                                <option value="EENADU">EENADU</option>
+                                                                <option value="EDITION">MY EDITION</option>
+                                                                <option value="ADMIN">ADMIN CMS</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- sub2 -->
+                                            <div class="col-sm-6 border-right">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group row">
+                                                            <label for="newName" class="col-md-5 col-form-label cusLabel">Client
+                                                                Name:</label>
+                                                            <div class="col-md-7">
+                                                                <select class="form-control  col-md-12 col-xs-12 select2" type="text" name="middle-name" >
+                                                                    <option value="EENADU">EENADU</option>
+                                                                    <option value="EDITION">MY EDITION</option>
+                                                                    <option value="ADMIN">ADMIN CMS</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group row">
+                                                            <label for="newName" class="col-md-5 col-form-label cusLabel">Product:</label>
+                                                            <div class="col-md-7">
+                                                                <select class="form-control  col-md-12 col-xs-12 select2" type="text" name="middle-name" >
+                                                                    <option value="EENADU">EENADU</option>
+                                                                    <option value="EDITION">MY EDITION</option>
+                                                                    <option value="ADMIN">ADMIN CMS</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group row">
+                                                            <label for="newName" class="col-md-5 col-form-label cusLabel">Brand:</label>
+                                                            <div class="col-md-7">
+                                                                <select class="form-control  col-md-12 col-xs-12 select2" type="text" name="middle-name" >
+                                                                    <option value="EENADU">EENADU</option>
+                                                                    <option value="EDITION">MY EDITION</option>
+                                                                    <option value="ADMIN">ADMIN CMS</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group row">
+                                                            <label for="newName" class="col-md-5 col-form-label cusLabel">Place:</label>
+                                                            <div class="col-md-7">
+                                                                <select class="form-control  col-md-12 col-xs-12 select2" type="text" name="middle-name" >
+                                                                    <option value="EENADU">EENADU</option>
+                                                                    <option value="EDITION">MY EDITION</option>
+                                                                    <option value="ADMIN">ADMIN CMS</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+                                            <!-- sub3 -->
+                                            <div class="col-sm-3">
+                                                <div class="form-group row">
+                                                    <label for="newName" class="col-md-5 col-form-label cusLabel">Agency
+                                                        Name:</label>
+                                                    <div class="col-md-7">
+                                                        <select class="form-control  col-md-12 col-xs-12 select2" type="text" name="middle-name" >
+                                                            <option value="EENADU">EENADU</option>
+                                                            <option value="EDITION">MY EDITION</option>
+                                                            <option value="ADMIN">ADMIN CMS</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <h3 class=" headinggs "><i class='far fa-edit'> Heading</i></h3>
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="form-group row">
+                                                    <label for="newName" class="col-md-5 col-form-label cusLabel">Size(cm*cm):</label>
+                                                    <div class="col-md-7">
+                                                        <input type="text" class="form-control input-sm" id="" name="" value="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-group row">
+                                                    <label for="newName" class="col-md-5 col-form-label cusLabel">Sqr-Cms:</label>
+                                                    <div class="col-md-7">
+                                                        <input type="text" class="form-control input-sm" id="" name="" value="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-group row">
+                                                    <label for="newName" class="col-md-5 col-form-label cusLabel">Page:</label>
+                                                    <div class="col-md-7">
+                                                        <input type="text" class="form-control input-sm" id="" name="" value="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-group row">
+                                                    <label for="newName" class="col-md-5 col-form-label cusLabel">Color:</label>
+                                                    <div class="col-md-7">
+                                                        <select class="form-control  col-md-12 col-xs-12 select2" type="text" name="middle-name" >
+                                                            <option value="EENADU">EENADU</option>
+                                                            <option value="EDITION">MY EDITION</option>
+                                                            <option value="ADMIN">ADMIN CMS</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-group row">
+                                                    <label for="newName" class="col-md-5 col-form-label cusLabel">Promoted By:</label>
+                                                    <div class="col-md-7">
+                                                        <select class="form-control  col-md-12 col-xs-12 select2" type="text" name="middle-name" >
+                                                            <option value="EENADU">EENADU</option>
+                                                            <option value="EDITION">MY EDITION</option>
+                                                            <option value="ADMIN">ADMIN CMS</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-group row">
+                                                    <label for="newName" class="col-md-5 col-form-label cusLabel">Special Pages:</label>
+                                                    <div class="col-md-7">
+                                                        <select class="form-control  col-md-12 col-xs-12 select2" type="text" name="middle-name" >
+                                                            <option value="EENADU">EENADU</option>
+                                                            <option value="EDITION">MY EDITION</option>
+                                                            <option value="ADMIN">ADMIN CMS</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-group row">
+                                                    <label for="newName" class="col-md-5 col-form-label cusLabel">Ad-Type:</label>
+                                                    <div class="col-md-7">
+                                                        <select class="form-control  col-md-12 col-xs-12 select2" type="text" name="middle-name" >
+                                                            <option value="EENADU">EENADU</option>
+                                                            <option value="EDITION">MY EDITION</option>
+                                                            <option value="ADMIN">ADMIN CMS</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-group row">
+                                                    <label for="newName" class="col-md-5 col-form-label cusLabel">Total
+                                                        Ads:</label>
+                                                    <div class="col-md-7">
+                                                        <input type="text" class="form-control input-sm" id="" name="" value="" disabled>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-group row">
+                                                    <label for="newName" class="col-md-5 col-form-label cusLabel">Total
+                                                        Spaces:</label>
+                                                    <div class="col-md-7">
+                                                        <input type="text" class="form-control input-sm " id="" name="" value="" disabled>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer m-auto" style="margin-top: -100px;">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Save</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- modal pop-up Ends -->ngle

@@ -1,0 +1,22 @@
+      table {
+        overflow: auto ;
+      }
+      
+      table tbody {
+        width: 100%;
+      }
+      table  thead th{
+        white-space:nowrap;
+        display: table-cell;
+      }
+      table, th, td{
+        white-space:nowrap; 
+      }   
+      .tfix {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        /* overflow-y: auto; */
+      }
+  
+

@@ -1,0 +1,19 @@
+/*------Buttons----------*/
+.btn-sai{
+    font-weight: 400;
+    font-size: 14px;
+}
+.form{
+    width: 300px;
+}
+.form-select{
+    padding: 5px;
+    border-radius: 2px solid  rgb(0, 60, 255) ;
+    font-family: Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 15px;
+  }
+  .main-footer{
+      position: fixed;
+  }
+  
+  
