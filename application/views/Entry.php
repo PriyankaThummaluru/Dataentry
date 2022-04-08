@@ -318,7 +318,7 @@
                                                     <option value="">Select</option>
                                                     <option value="MAIN">Main</option>
                                                     <option value="MINI">Mini</option>
-                                                    <option value="MINI/MINI">Mini/Mini</option>
+                                                    <option value="MINI/MINI">Mini-Mini</option>
                                                 </select>
                                                 <?php
                                             } else {
